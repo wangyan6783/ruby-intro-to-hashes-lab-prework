@@ -7,7 +7,18 @@ def actor
 end
 
 def monopoly
-	monopoly = {railroads: {}}
+	monopoly = {railroads: {
+	  
+	}}
+end
+
+def monopoly_with_second_tier
+  monopoly = {railroads: {
+    pieces: 4,
+    names: {},
+    rent_in_dollars: {}
+  }}
+	
 end
 
   describe "adding key-value pairs to the second level of the monopoly hash that we started building in the #monopoly method" do
@@ -130,10 +141,6 @@ end
 end
 
 
-def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-	
-end
 
 def monopoly_with_third_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
